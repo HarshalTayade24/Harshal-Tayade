@@ -1,0 +1,67 @@
+.Ass {
+  padding: 30px 20px 100px 50px;
+}
+
+.col-md-6 {
+  width: 38%;
+}
+
+.col-md-12 {
+  width: 98%;
+  height: 30px;
+}
+
+.container-grid {
+  text-align: center;
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  grid-auto-flow: column;
+}
+
+.item {
+  margin: 12px;
+  background-color: #ffffff;
+  padding: 16px;
+  margin: auto;
+  text-align: center;
+  line-height: 26px;
+}
+
+.heading {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.paragraph {
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 21px;
+  font-weight: 600;
+  margin: auto;
+  text-align: justify;
+}
+.col2{
+  text-align: center;
+}
+@media screen and (max-width:400px)and (max-width:300px){
+  .container-grid {
+    text-align: center;
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-auto-flow: row;
+    grid-template-columns: auto auto;
+    
+  }
+  .paragraph {
+   
+    margin: auto;
+    
+  }
+  .heading {
+    font-size: 30px;
+    font-weight: 700;
+    
+  }
+}
